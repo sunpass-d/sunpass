@@ -9,7 +9,7 @@ export default defineConfig({
 			title: 'SunPass',
 			favicon: './public/favicon.png',
 			logo: {
-				src: './public/favicon.png',
+				src: './public/logo.png',
 			},
 			social: {
 				github: 'https://github.com/sunpass-d/sunpass',
