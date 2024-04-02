@@ -3,9 +3,14 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://docs.sunpass.me/',
 	integrations: [
 		starlight({
 			title: 'SunPass',
+			favicon: '/public/favicon.png',
+			logo: {
+				src: './public/favicon.png',
+			},
 			social: {
 				github: 'https://github.com/sunpass-d/sunpass',
 			},
