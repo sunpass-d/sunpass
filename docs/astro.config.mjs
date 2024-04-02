@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'SunPass',
-			favicon: '/public/favicon.png',
+			favicon: './public/favicon.png',
 			logo: {
 				src: './public/favicon.png',
 			},
